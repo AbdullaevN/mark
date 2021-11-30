@@ -17,8 +17,6 @@ import Filter from "./components/FLTER/Filter";
 import CommentContextProvider from "./contexts/CommentContext";
 import Comments from "./components/Comments/Comments";
 import DetailModal from "./components/DetailModal";
-import AddFile from "./components/addFile/AddFile";
-import List from "./components/List/List";
 
 const MyRoutes = () => {
   return (
@@ -39,7 +37,6 @@ const MyRoutes = () => {
                 <Route path="/catalog" element={<Filter />} />
                 <Route path="/comment" element={<Comments />} />
                 <Route path="/detail" element={<DetailModal />} />
-                <Route path="/addfile" element={<AddFile />} />
               </Routes>
               <Footer />
             </BrowserRouter>

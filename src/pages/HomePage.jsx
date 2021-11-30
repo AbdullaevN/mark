@@ -12,6 +12,9 @@ import MyCarousel from "../components/Carousel/Carousel";
 import { pink } from "@mui/material/colors";
 import Filter from "../components/FLTER/Filter";
 import Header from "../components/Header/Header";
+import SectionOne from "../components/Section/SectionOne";
+import SectionTwo from "../components/SectionTwo/SectionTwo";
+import SectionThree from "../components/SectionThree/SectionThree";
 
 const HomePage = () => {
   const { getProducts, products, currentPosts } = useContext(clientContext);
@@ -19,6 +22,9 @@ const HomePage = () => {
   return (
     <>
       <Header />
+      <SectionOne />
+      <SectionTwo />
+      <SectionThree />
     </>
   );
 };

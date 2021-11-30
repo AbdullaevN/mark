@@ -75,7 +75,7 @@ const Comments = () => {
                         src={
                           item.photoURL
                             ? item.photoURL
-                            : "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+                            : "https://cdn-icons-png.flaticon.com/512/709/709722.png"
                         }
                         alt=""
                       />
@@ -101,6 +101,7 @@ const Comments = () => {
                               : item.owner}
                           </strong>
                           <textarea
+                            required
                             rows="2"
                             className="input-box edit-comm-box"
                             type="text"
@@ -173,6 +174,7 @@ const Comments = () => {
                             className="input-box"
                             type="text"
                             value={val}
+                            minLength="2"
                             placeholder="Напишите отзыв о товаре"
                             component="input"
                             onChange={handleChangeEdit}

@@ -11,7 +11,7 @@ const EditPage = () => {
     image: yup.string().required("Обязательно"),
     name: yup.string().min(3).max(30).required("Обязательно"),
     category: yup.string().min(2).max(30).required("Обязательно"),
-    composition: yup.string().min(10).max(255).required("Обязательно"),
+    composition: yup.string().min(2).max(255).required("Обязательно"),
     price: yup.number().min(3).required("Обязательно"),
     gram: yup.string().min(1).max(30).required("Обязательно"),
   });
@@ -50,7 +50,7 @@ const EditPage = () => {
                 onChange={handleChange}
               />
               <TextField
-                label="Название продукта"
+                label="Название "
                 type="text"
                 variant="standard"
                 name="name"
@@ -60,7 +60,7 @@ const EditPage = () => {
                 onChange={handleChange}
               />
               <TextField
-                label="Категория продукта"
+                label="Категория "
                 type="text"
                 variant="standard"
                 name="category"
@@ -70,7 +70,7 @@ const EditPage = () => {
                 onChange={handleChange}
               />
               <TextField
-                label="Состав"
+                label="Описание"
                 type="text"
                 variant="standard"
                 name="composition"
@@ -91,7 +91,7 @@ const EditPage = () => {
                 onChange={handleChange}
               />
               <TextField
-                label="См/грамм"
+                label="Размер"
                 type="text"
                 variant="standard"
                 name="gram"

@@ -27,6 +27,7 @@ import { Link } from "react-router-dom";
 import { clientContext } from "../contexts/ClientContext";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import Favorites from "../pages/Favorites";
+import bot from "./bot.png";
 
 const Search = styled("div")(({ theme }) => ({
   position: "relative",
@@ -316,17 +317,25 @@ export default function NavBar() {
                 />
               </Search>
             </div>
-            <div>
+
+            <Link to="/catalog">
+              <Button variant="outlined">Catalog</Button>
+            </Link>
+            <div style={{ margin: "0 20px" }}>
               <button>
-                <a href="https://t.me/makers_myshop_bot">telegram</a>
+                <a href="https://t.me/makers_myshop_bot">
+                  <img
+                    style={{ width: "50px", height: "40px" }}
+                    src={bot}
+                    alt="bot"
+                  />
+                </a>
               </button>
             </div>
-            <Link to="/catalog">
-              <Button>iugi</Button>
-            </Link>
-            {user.email === adminEmail ? temp : <></>}
             <Box sx={{ flexGrow: 1 }} />
             <Box sx={{ display: { xs: "none", md: "flex" } }}>
+              {user.email === adminEmail ? temp : <></>}
+
               <Link to="/cart">
                 <IconButton
                   size="large"

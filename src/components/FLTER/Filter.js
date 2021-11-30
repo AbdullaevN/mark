@@ -60,7 +60,7 @@ const Filter = () => {
               onChange={(e) => filterProducts("category", e.target.value)}
             >
               <FormControlLabel
-                value="women"
+                value="woman"
                 control={
                   <Radio
                     sx={{

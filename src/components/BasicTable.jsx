@@ -24,35 +24,57 @@ export default function BasicTable() {
           <Table sx={{ minWidth: 650 }} aria-label="simple table">
             <TableHead>
               <TableRow>
-                <TableCell>Название продукта</TableCell>
-                <TableCell align="right">Состав</TableCell>
-                <TableCell align="right">Цена</TableCell>
-                <TableCell align="right">См/грамм</TableCell>
-                <TableCell align="right">#</TableCell>
-                <TableCell align="right">#</TableCell>
+                <TableCell>Фото </TableCell>
+                <TableCell className="right" align="right">
+                  Название
+                </TableCell>
+                <TableCell className="right" align="right">
+                  Описание
+                </TableCell>
+                <TableCell className="right" align="right">
+                  Цена
+                </TableCell>
+                <TableCell className="right" align="right">
+                  Размер
+                </TableCell>
+                <TableCell className="right" align="right">
+                  #
+                </TableCell>
+                <TableCell className="right" align="right">
+                  #
+                </TableCell>
               </TableRow>
             </TableHead>
-            npm start
+
             <TableBody>
               {products.map((phone) => (
                 <TableRow
                   key={phone.id}
                   sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
                 >
-                  <TableCell align="right">
-                    <img width="70" src={phone.image} alt="phone" />
+                  <TableCell className="right" align="right">
+                    <img
+                      className="right"
+                      width="70"
+                      src={phone.image}
+                      alt="phone"
+                    />
                   </TableCell>
-                  <TableCell component="th" scope="row">
+                  <TableCell className="right" component="th" scope="row">
                     {phone.name}
                   </TableCell>
-                  <TableCell align="right">
+                  <TableCell className="right" align="right">
                     <Tooltip title={phone.composition}>
                       <p>{phone.composition.slice(0, 30)}...</p>
                     </Tooltip>
                   </TableCell>
-                  <TableCell align="right">{phone.price} сом</TableCell>
-                  <TableCell align="right">{phone.gram}</TableCell>
-                  <TableCell align="right">
+                  <TableCell className="right" align="right">
+                    {phone.price} сом
+                  </TableCell>
+                  <TableCell className="right" align="right">
+                    {phone.gram}
+                  </TableCell>
+                  <TableCell className="right" align="right">
                     <Link to={`/admin/edit/${phone.id}`}>
                       <Button color="warning" variant="outlined">
                         Изменить

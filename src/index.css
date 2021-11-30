@@ -1,5 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600&family=Poppins:wght@100;300;400;500;700&family=Rubik:wght@300;400;500&display=swap");
+
 * {
-  font-family: "Lora", serif;
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Rubik", sans-serif;
 }
 
 body {
@@ -118,6 +122,9 @@ code {
 
 .ff {
   display: flex;
+}
+.right {
+  border: 1px solid black;
 }
 
 .cartochka:hover {
