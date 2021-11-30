@@ -1,0 +1,97 @@
+{
+  "products": [
+    {
+      "image": "https://preview.colorlib.com/theme/cozastore/images/xproduct-01.jpg.pagespeed.ic.6WHvZRJRuO.webp",
+      "name": "Esprit Ruffle Shirt",
+      "category": "women",
+      "composition": "Пицца Пепперони. Пицца-соус, сыр моцарелла, салями, шампиньоны.",
+      "price": 350,
+      "gram": "30см, 570 гр",
+      "id": 1
+    },
+    {
+      "image": "uyfgkhj",
+      "name": "jkhgfvkhgf",
+      "category": "uyfiyf",
+      "composition": "hfjygf1uyfvku",
+      "price": 6465,
+      "gram": "987",
+      "id": 2
+    }
+  ],
+  "users": [
+    {}
+  ],
+  "comments": [
+    {
+      "text": "6u5jokp",
+      "owner": "nurlanabdullaev9820@gmail.com",
+      "displayName": null,
+      "photoURL": null,
+      "productId": "1",
+      "time": "30.11.2021",
+      "timeSeconds": 1638266516375,
+      "id": 2
+    },
+    {
+      "text": "yd7yfuygihojk;",
+      "owner": "nurlanabdullaev9820@gmail.com",
+      "displayName": null,
+      "photoURL": null,
+      "productId": "1",
+      "time": "30.11.2021",
+      "timeSeconds": 1638266919510,
+      "id": 5
+    },
+    {
+      "text": "xtrcyvml;,",
+      "owner": "nurlanabdullaev9820@gmail.com",
+      "displayName": null,
+      "photoURL": null,
+      "productId": "1",
+      "time": "30.11.2021",
+      "timeSeconds": 1638266923632,
+      "id": 6
+    },
+    {
+      "text": "dtyfguhikp",
+      "owner": "nurlanabdullaev9820@gmail.com",
+      "displayName": null,
+      "photoURL": null,
+      "productId": "1",
+      "time": "30.11.2021",
+      "timeSeconds": 1638266990456,
+      "id": 7
+    },
+    {
+      "text": "knkemrg\n",
+      "owner": "nurlanabdullaev9820@gmail.com",
+      "displayName": null,
+      "photoURL": null,
+      "productId": "2",
+      "time": "30.11.2021",
+      "timeSeconds": 1638267095845,
+      "id": 8
+    },
+    {
+      "text": "uygiuhoefefwfwefwefwefwef",
+      "owner": "nurlanabdullaev9820@gmail.com",
+      "displayName": null,
+      "photoURL": null,
+      "productId": "2",
+      "time": "30.11.2021",
+      "timeSeconds": 1638267107383,
+      "id": 9
+    },
+    {
+      "text": "yctugihnoml;",
+      "owner": "nurlanabdullaev9820@gmail.com",
+      "displayName": null,
+      "photoURL": null,
+      "productId": "2",
+      "time": "30.11.2021",
+      "timeSeconds": 1638267197114,
+      "id": 10
+    }
+  ]
+}
