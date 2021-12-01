@@ -35,12 +35,16 @@ const DetailPage = () => {
                       <span>{productDetails.price}сом</span>
                     </li>
                     <li>
-                      <strong>Порция:</strong>
+                      <strong>Размер:</strong>
                       <span>{productDetails.gram}</span>
                     </li>
                     <li>
                       <strong>Категория:</strong>
                       <span>{productDetails.category}</span>
+                    </li>
+                    <li>
+                      <strong>Цвет:</strong>
+                      <span>{productDetails.composition}</span>
                     </li>
                   </ul>
                 </div>

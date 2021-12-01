@@ -4,7 +4,7 @@
       "image": "https://preview.colorlib.com/theme/cozastore/images/xproduct-01.jpg.pagespeed.ic.6WHvZRJRuO.webp",
       "name": "Esprit Ruffle Shirt",
       "category": "women",
-      "composition": "clothes",
+      "composition": "white",
       "price": 350,
       "gram": "m",
       "id": 1
@@ -53,10 +53,158 @@
       "price": 2500,
       "gram": "41",
       "id": 7
+    },
+    {
+      "image": "https://images.pexels.com/photos/2837409/pexels-photo-2837409.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "name": "Easy",
+      "category": "shoes",
+      "composition": "White",
+      "price": 2500,
+      "gram": "41",
+      "id": 8
+    },
+    {
+      "image": "https://images.pexels.com/photos/2837409/pexels-photo-2837409.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "name": "Easy",
+      "category": "shoes",
+      "composition": "White",
+      "price": 2500,
+      "gram": "41",
+      "id": 9
+    },
+    {
+      "image": "https://images.pexels.com/photos/705868/pexels-photo-705868.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "name": "LLO",
+      "category": "watches",
+      "composition": "bLue",
+      "price": 8000,
+      "gram": "l",
+      "id": 10
+    },
+    {
+      "image": "https://images.pexels.com/photos/705868/pexels-photo-705868.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "name": "LLO",
+      "category": "watches",
+      "composition": "bLue",
+      "price": 8000,
+      "gram": "l",
+      "id": 11
+    },
+    {
+      "image": "https://images.pexels.com/photos/9604296/pexels-photo-9604296.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "name": "Kofta",
+      "category": "men",
+      "composition": "gray",
+      "price": 782,
+      "gram": "L",
+      "id": 12
+    },
+    {
+      "image": "https://images.pexels.com/photos/9604296/pexels-photo-9604296.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "name": "Kofta",
+      "category": "men",
+      "composition": "gray",
+      "price": 782,
+      "gram": "L",
+      "id": 13
+    },
+    {
+      "image": "https://images.pexels.com/photos/9604296/pexels-photo-9604296.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "name": "Kofta",
+      "category": "men",
+      "composition": "gray",
+      "price": 782,
+      "gram": "L",
+      "id": 14
+    },
+    {
+      "image": "https://images.pexels.com/photos/9604296/pexels-photo-9604296.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "name": "Kofta",
+      "category": "men",
+      "composition": "gray",
+      "price": 782,
+      "gram": "L",
+      "id": 15
+    },
+    {
+      "image": "https://images.pexels.com/photos/9604296/pexels-photo-9604296.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "name": "Kofta",
+      "category": "men",
+      "composition": "gray",
+      "price": 782,
+      "gram": "L",
+      "id": 16
+    },
+    {
+      "image": "https://images.pexels.com/photos/9604296/pexels-photo-9604296.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "name": "Kofta",
+      "category": "men",
+      "composition": "gray",
+      "price": 782,
+      "gram": "L",
+      "id": 17
+    },
+    {
+      "image": "https://images.pexels.com/photos/9604296/pexels-photo-9604296.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "name": "Kofta",
+      "category": "men",
+      "composition": "gray",
+      "price": 782,
+      "gram": "L",
+      "id": 18
+    },
+    {
+      "image": "https://preview.colorlib.com/theme/cozastore/images/xproduct-01.jpg.pagespeed.ic.6WHvZRJRuO.webp",
+      "name": "Esprit Ruffle Shirt",
+      "category": "women",
+      "composition": "white",
+      "price": 350,
+      "gram": "m",
+      "id": 19
+    },
+    {
+      "image": "https://preview.colorlib.com/theme/cozastore/images/xproduct-01.jpg.pagespeed.ic.6WHvZRJRuO.webp",
+      "name": "Esprit Ruffle Shirt",
+      "category": "women",
+      "composition": "white",
+      "price": 350,
+      "gram": "m",
+      "id": 20
     }
   ],
   "users": [
     {}
   ],
-  "comments": []
+  "comments": [
+    {
+      "text": "comment 3\n",
+      "owner": "kubaismailov02@gmail.com",
+      "displayName": null,
+      "photoURL": null,
+      "productId": "1",
+      "time": "01.12.2021",
+      "timeSeconds": 1638341037956,
+      "id": 3
+    },
+    {
+      "text": "comment 4",
+      "owner": "nurlanabdullaev9820@gmail.com",
+      "displayName": null,
+      "photoURL": null,
+      "productId": "1",
+      "time": "01.12.2021",
+      "timeSeconds": 1638341093154,
+      "id": 4
+    },
+    {
+      "text": "comment 5",
+      "owner": "nurlanabdullaev9820@gmail.com",
+      "displayName": null,
+      "photoURL": null,
+      "productId": "3",
+      "time": "01.12.2021",
+      "timeSeconds": 1638341125178,
+      "id": 5
+    }
+  ]
 }

@@ -317,6 +317,7 @@ export default function NavBar() {
                 />
               </Search>
             </div>
+            {user.email === adminEmail ? temp : <></>}
 
             <Link to="/catalog">
               <Button variant="outlined">Catalog</Button>
@@ -334,8 +335,6 @@ export default function NavBar() {
             </div>
             <Box sx={{ flexGrow: 1 }} />
             <Box sx={{ display: { xs: "none", md: "flex" } }}>
-              {user.email === adminEmail ? temp : <></>}
-
               <Link to="/cart">
                 <IconButton
                   size="large"
